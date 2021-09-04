@@ -2,16 +2,15 @@
   "schemaVersion": 1,
   "id": "connected_block_textures",
   "version": "${version}",
-
   "name": "Connected Block Textures",
   "description": "Support for MCPatcher/Optifine-format connected textures.",
   "authors": [
-    "NuclearFarts"
+    "NuclearFarts",
+    "Justsnoopy30"
   ],
   "contact": {
-    "sources": "https://github.com/Nuclearfarts/connected-block-textures"
+    "sources": "https://github.com/HyperCubeMC/connected-block-textures"
   },
-
   "license": "LGPLv3",
   "icon": "assets/connected_block_textures/icon.png",
   "environment": "client",
@@ -23,9 +22,9 @@
   "mixins": [
     "connected_block_textures.mixins.json"
   ],
-
   "depends": {
-    "fabricloader": ">=0.4.0",
-    "fabric": "*"
+    "fabricloader": ">=0.9.0",
+    "minecraft": "1.16.5",
+    "fabric-renderer-api-v1": "*"
   }
 }
