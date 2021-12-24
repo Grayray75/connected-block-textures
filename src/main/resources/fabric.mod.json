@@ -23,7 +23,7 @@
     "connected_block_textures.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.9.0",
+    "fabricloader": ">=0.12.0",
     "minecraft": "1.17.x",
     "fabric-renderer-api-v1": "*"
   }
